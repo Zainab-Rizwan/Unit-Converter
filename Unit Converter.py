@@ -114,10 +114,8 @@ def converter(category, unit_from, unit_to, value):
     new_value =value*(u_from/u_to) 
     return str(new_value)
 
-
 #Main
-print ("UNIT CONVERTER")
-print("-----------------------------------\n")
+print ("----------UNIT CONVERTER----------")
 print("Categories:")
 print("-----------------------------------")
 print("\n".join(units.keys()))
